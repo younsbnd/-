@@ -1,6 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+@import "./../public//styles/variables.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  margin-top: 4rem;
+  width: 100% !important;
+  display: flex;
+  align-items: start;
+}
+.sideBar-app{
+  width: 25%;
+  height: 100vh;
+  background-color: $sideBarColor;
+}
+.router-app{
+  width: 75%;
 }

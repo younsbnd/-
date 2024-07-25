@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.scss";
 import { IconButton } from "@mui/material";
-import { NotificationsNone,Language,Settings } from "@mui/icons-material";
+import { NotificationsNone, Language, Settings } from "@mui/icons-material";
 
 function Navbar() {
   return (
@@ -10,17 +10,17 @@ function Navbar() {
         <p>iran8ball</p>
       </div>
       <div className="nav-right">
-        <IconButton>
-            <NotificationsNone />
-            <span>2</span>
-        </IconButton>
-        <IconButton>
-            <Language />
-            <span>2</span>
-        </IconButton>
-        <IconButton>
-            <Settings />
-        </IconButton>
+        <div>
+          <NotificationsNone className="top-icon" />
+          <span>2</span>
+        </div>
+        <div>
+          <Language className="top-icon" />
+          <span>2</span>
+        </div>
+        <div>
+          <Settings className="top-icon" />
+        </div>
         <img src="./images/cat.jpg" alt="" />
       </div>
     </div>
