@@ -1,0 +1,48 @@
+.feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .featureChild {
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 2rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+
+    > :nth-child(1) {
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+    > :nth-child(3) {
+      margin-top: 1rem;
+      color: #959595;
+      font-size: .8rem;
+    }
+  }
+}
+.featureMoney {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  > :first-child {
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  > :nth-child(2) {
+    margin-right: 0.3rem;
+  }
+  > :nth-child(3) {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 992px) {
+  .feature {
+    flex-direction: column;
+  }
+}
