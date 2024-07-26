@@ -12,12 +12,22 @@
   display: flex;
   align-items: start;
 }
-.sideBar-app{
-  width: 25%;
+.sideBar-app {
   height: 95vh;
+  width: 17rem;
   background-color: $sideBarColor;
 }
-.router-app{
-  width: 75%;
+.router-app {
+  width: 100%;
   padding: 0 1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .sideBar-app {
+    width: 25%;
+    display: none;
+  }
+  .router-app {
+    width: 100%;
+  }
 }

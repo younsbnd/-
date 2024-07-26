@@ -1,0 +1,14 @@
+@import "./../../../public/styles/variables.scss";
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  box-shadow: $boxShadow;
+  padding: 1rem;
+
+  h2{
+    margin-bottom: 1.5rem;
+    font-size: large;
+    font-weight: 700;
+  }
+}

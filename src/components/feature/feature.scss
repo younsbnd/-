@@ -1,14 +1,15 @@
+@import "./../../../public/styles/variables.scss";
+
 .feature {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   .featureChild {
-    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: $boxShadow;
     padding: 2rem;
     width: 100%;
     margin-bottom: 1rem;
-    margin-right: 1rem;
 
     > :nth-child(1) {
       font-size: 1.2rem;
@@ -17,7 +18,7 @@
     > :nth-child(3) {
       margin-top: 1rem;
       color: #959595;
-      font-size: .8rem;
+      font-size: 0.8rem;
     }
   }
 }
@@ -45,4 +46,11 @@
   .feature {
     flex-direction: column;
   }
+  .featureChild {
+    margin-right: 0!important;
+  }
+}
+
+.secondFeature{
+  margin: 0 1rem;
 }
