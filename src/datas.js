@@ -1,4 +1,6 @@
-import { ArrowDownward,ArrowUpward } from "@mui/icons-material";
+import { ArrowDownward, ArrowUpward } from "@mui/icons-material";
+import { render } from "@testing-library/react";
+import "./App.scss";
 
 let rechartsData = [
   {
@@ -60,7 +62,7 @@ let newMembers = [
   },
   {
     id: 2,
-    name: "Mohammad Amin",
+    name: "ali zaimkar",
     job: "Web Developer",
     img: "./images/Mohammad.jpg",
   },
@@ -72,7 +74,7 @@ let newMembers = [
   },
   {
     id: 4,
-    name: "reza salari",
+    name: "emad salari",
     job: "SEO Expert",
     img: "./images/reza.jpg",
   },
@@ -105,4 +107,72 @@ let features = [
   },
 ];
 
-export { rechartsData, newMembers, features };
+const transactions = [
+  {
+    id: 1,
+    name: "emad salari",
+    date: "12 May 2024",
+    amount: "$122.00",
+    status: "Approved",
+    img: "./images/reza.jpg",
+  },
+  {
+    id: 2,
+    name: "javad najafi",
+    date: "24 jun 2023",
+    amount: "$103.00",
+    status: "Declined",
+    img: "./images/javad.jpg",
+  },
+  {
+    id: 3,
+    name: "ali zaimkar",
+    date: "2 Feb 2023",
+    amount: "$112.00",
+    status: "Pending",
+    img: "./images/Mohammad.jpg",
+  },
+  {
+    id: 4,
+    name: "younes dadipoor",
+    date: "2 jun 2021",
+    amount: "$96.00",
+    status: "Approved",
+    img: "./images/younes.jpg",
+  },
+];
+
+const userRows = [
+  {
+    id: 1,
+    username: "younes dadipoor",
+    email: "younes@yahoo.com",
+    avatar: "./images/javad.jpg",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 2,
+    username: "Ali Zaimkar",
+    email: "ali@yahoo.com",
+    avatar: "./images/Mohammad.jpg",
+    status: "active",
+    transaction: "$190.00",
+  },
+  {
+    id: 3,
+    username: "Emad Salari",
+    email: "emad@yahoo.com",
+    avatar: "./images/reza.jpg",
+    status: "active",
+    transaction: "$320.00",
+  },
+];
+
+export {
+  rechartsData,
+  newMembers,
+  features,
+  transactions,
+  userRows,
+};

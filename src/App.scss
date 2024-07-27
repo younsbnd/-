@@ -30,4 +30,12 @@
   .router-app {
     width: 100%;
   }
+  .widgetContainer {
+    flex-direction: column;
+  }
+}
+
+.widgetContainer {
+  display: flex;
+  margin-top: 1rem;
 }
