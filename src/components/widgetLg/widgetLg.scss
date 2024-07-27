@@ -1,0 +1,73 @@
+@import "./../../../public/styles/variables.scss";
+
+.widgetLg {
+  flex: 2;
+  padding: 1rem;
+  box-shadow: $boxShadow;
+  margin-left: 1rem;
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+
+table {
+  width: 100%;
+  border-spacing: 20px;
+
+  thead {
+    text-align: left;
+  }
+}
+
+.widgetLgUser {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  p {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+  }
+  img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    object-position: top;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #ebebeb;
+    transition: all 0.2s;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.btn {
+  border: 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.approvedBtn {
+  background-color: #e7f2f0;
+  color: #3bb077;
+}
+
+.declinedBtn {
+  background-color: #f9e1e1;
+  color: #d04545;
+}
+
+.pendingBtn {
+  background-color: #f0f0f0;
+  color: #4547df;
+}
+
+@media screen and (max-width: 992px) {
+  .widgetLg {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+}
