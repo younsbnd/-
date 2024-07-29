@@ -1,0 +1,29 @@
+.mobileMenu {
+  padding: 1rem 0;
+  display: none !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15rem;
+  background-color: #fff;
+  height: 100%;
+  z-index: 1100;
+  display: flex;
+  color: #fbfbff;
+}
+
+.close-icon {
+  position: absolute!important;
+  top: .3rem;
+  right: .5rem;
+  cursor: pointer;
+  margin: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .mobileMenu {
+    display: flex !important;
+    flex-direction: column;
+    align-items: end;
+  }
+}

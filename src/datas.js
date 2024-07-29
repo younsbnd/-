@@ -169,10 +169,98 @@ const userRows = [
   },
 ];
 
+const productsData = [
+  {
+    id: 1,
+    name: "Apple Airpods",
+    img: "./images/airpods.jpg",
+    price: "$89.99",
+    stock: "7"
+  },
+  {
+    id: 2,
+    name: "Apple Watch",
+    img: "./images/watch.jpg",
+    price: "$599.99",
+    stock: "7"
+  },
+  {
+    id: 3,
+    name: "Iphone",
+    img: "./images/iphone.jpg",
+    price: "$999.99",
+    stock: "7"
+  },
+  {
+    id: 4,
+    name: "Macbook",
+    img: "./images/macbook.jpg",
+    price: "$1999.99",
+    stock: "7"
+  },
+  {
+    id: 5,
+    name: "Apple Airpods",
+    img: "./images/airpods.jpg",
+    price: "$89.99",
+    stock: "7"
+  },
+  {
+    id: 6,
+    name: "Apple Watch",
+    img: "./images/watch.jpg",
+    price: "$599.99",
+    stock: "7"
+  },
+  {
+    id: 7,
+    name: "Iphone",
+    img: "./images/iphone.jpg",
+    price: "$999.99",
+    stock: "7"
+  },
+  {
+    id: 8,
+    name: "Macbook",
+    img: "./images/macbook.jpg",
+    price: "$1999.99",
+    stock: "7"
+  },
+  {
+    id: 9,
+    name: "Apple Airpods",
+    img: "./images/airpods.jpg",
+    price: "$89.99",
+    stock: "7"
+  },
+  {
+    id: 10,
+    name: "Apple Watch",
+    img: "./images/watch.jpg",
+    price: "$599.99",
+    stock: "7"
+  },
+  {
+    id: 11,
+    name: "Iphone",
+    img: "./images/iphone.jpg",
+    price: "$999.99",
+    stock: "7"
+  },
+  {
+    id: 12,
+    name: "Macbook",
+    img: "./images/macbook.jpg",
+    price: "$1999.99",
+    stock: "7"
+  },
+];
+
 export {
   rechartsData,
   newMembers,
   features,
   transactions,
   userRows,
+  productsData,
 };

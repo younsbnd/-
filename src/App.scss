@@ -14,7 +14,8 @@
 }
 .sideBar-app {
   height: 95vh;
-  width: 17rem;
+  width: 16rem;
+  min-width: 15rem;
   background-color: $sideBarColor;
 }
 .router-app {

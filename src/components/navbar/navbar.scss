@@ -10,6 +10,7 @@
   top: 0;
   background-color: #fff;
   padding: 0 0.8rem;
+  z-index: 999;
 }
 .nav-left {
   p {
@@ -38,7 +39,7 @@
   span {
     position: absolute;
     right: -2px;
-    font-size: .7rem;
+    font-size: 0.7rem;
     top: -6px;
     color: #fff;
     background-color: #ee2d2d;
@@ -53,4 +54,22 @@
 
 .top-icon {
   color: #555;
+}
+
+.menu-icon {
+  display: none!important;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-left {
+    p {
+      display: none;
+    }
+  }
+
+  .menu-icon {
+    display: block!important;
+  }
+
 }

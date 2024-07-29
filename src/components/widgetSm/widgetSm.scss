@@ -3,6 +3,7 @@
 .widget {
   padding: 1rem;
   box-shadow: $boxShadow;
+  overflow-x: auto;
   flex: 1;
   > :nth-child(1) {
     h2 {
