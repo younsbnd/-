@@ -1,0 +1,34 @@
+@import "./../../../../public/styles/variables.scss";
+
+.productContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.productMain {
+  margin-top: 2rem;
+  padding: 1rem;
+  box-shadow: $boxShadow;
+}
+
+.productBtn{
+  margin-top: 1rem!important;
+  width: 15rem;
+}
+.productForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.productInput {
+  width: 50rem;
+}
+
+
+@media (max-width: 992px) {
+  .productInput {
+    width: 100%;
+  }
+}

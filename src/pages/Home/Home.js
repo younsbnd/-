@@ -4,6 +4,7 @@ import Recharts from "../../components/recharts/Recharts";
 import { rechartsData } from "../../datas";
 import WidgetSm from "../../components/widgetSm/WidgetSm";
 import WidgetLg from "../../components/widgetLg/WidgetLg";
+import MobileMenu from "../../components/mobileMeni/MobileMenu";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <div className="widgetContainer">
         <WidgetSm />
         <WidgetLg />
+        <MobileMenu />
       </div>
     </div>
   );
